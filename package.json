@@ -1,0 +1,22 @@
+{
+  "name": "cap-vite-cli",
+  "version": "1.0.0",
+  "main": "main.js",
+  "binName": "cap-vite",
+  "bin": {
+    "cap-vite": "./main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^14.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
