@@ -8,13 +8,14 @@
   },
   "author": "k34869",
   "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/k34869/capacitor-vite-cli"
+  },
+  "bugs": "https://github.com/k34869/capacitor-vite-cli/issues",
   "description": "capacitor-cli and vite-cli integration tool",
   "dependencies": {
     "commander": "^14.0.1",
     "inquirer": "8.2.4"
-  },
-  "devDependencies": {
-    "@capacitor/cli": "^7.4.3",
-    "vite": "^7.1.6"
   }
 }

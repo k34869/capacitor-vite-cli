@@ -1,7 +1,7 @@
 const fs = require("fs");
 const { execSync, spawn } = require("child_process");
 const { program } = require("commander");
-const { start } = require("./lib/dev");
+const { devModeStart } = require("./lib/dev");
 const package = require("./package.json");
 
 program
@@ -25,7 +25,7 @@ program
   .option("--host <host>", "Host used for live reload")
   .option("--port <port>", "Port used for live reload")
   .action((platform) => {
-    start();
+    devModeStart();
   });
 
 program
