@@ -1,22 +1,20 @@
 {
-  "name": "cap-vite-cli",
+  "name": "capacitor-vite-cli",
   "version": "1.0.0",
   "main": "main.js",
   "binName": "cap-vite",
   "bin": {
     "cap-vite": "./main.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "k34869",
   "license": "MIT",
-  "description": "",
+  "description": "capacitor-cli and vite-cli integration tool",
   "dependencies": {
-    "commander": "^14.0.1"
+    "commander": "^14.0.1",
+    "inquirer": "8.2.4"
   },
   "devDependencies": {
-    "@capacitor/cli": "^7.4.3"
+    "@capacitor/cli": "^7.4.3",
+    "vite": "^7.1.6"
   }
 }

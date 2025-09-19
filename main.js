@@ -1,6 +1,7 @@
 const fs = require("fs");
-const { execSync } = require("child_process");
+const { execSync, spawn } = require("child_process");
 const { program } = require("commander");
+const { start } = require("./lib/dev");
 const package = require("./package.json");
 
 program
@@ -23,8 +24,8 @@ program
   .description(`Start vite dev server, then builds and deploys the native app`)
   .option("--host <host>", "Host used for live reload")
   .option("--port <port>", "Port used for live reload")
-  .action(() => {
-    console.log(666);
+  .action((platform) => {
+    start();
   });
 
 program

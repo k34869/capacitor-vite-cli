@@ -1,1 +1,3 @@
-capacitor-cli and vite-cli integrated cli
+# Capacitor-Vite-Cli
+
+capacitor-cli and vite-cli integration tool
